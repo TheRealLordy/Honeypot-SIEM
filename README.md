@@ -59,11 +59,11 @@ This project focuses on:
 ### 5. **Data Collection and Processing**
 
 #### PowerShell Script:
-- A **PowerShell script** was created to:
+- A **PowerShell script** was used to:
   - Scan the VM’s event logs.
   - Extract logs with **Event ID 4625**.
   - Save extracted data into a `.log` file.
-
+> **Disclaimer**: The PowerShell script used in this project was sourced from [joshmadakor1). Credit goes to the original creator for their work.
 #### Sample Log File:
 - A sample log file matching the format of the generated logs was created to **train the Log Analytics Workspace** for consistent data extraction.
 
